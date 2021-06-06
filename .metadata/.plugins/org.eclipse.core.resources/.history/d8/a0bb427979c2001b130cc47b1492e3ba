@@ -1,0 +1,25 @@
+package com.janbask.selenium;
+
+public class Runner {
+	
+	Runner(){
+		
+		System.out.println(" runner is called");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		Runner r= new Runner();
+		
+		/*
+		 * Access_Modifiers ac= new Access_Modifiers();
+		 * 
+		 * ac.method1();
+		 */
+
+	}
+
+}

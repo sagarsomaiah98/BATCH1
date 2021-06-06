@@ -1,0 +1,20 @@
+package com.janbask.sel;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Different_Browser {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+		WebDriver driver= new ChromeDriver();
+		System.setProperty("webdriver.gecko.driver","D:\\JARS\\jar_files\\geckodriver\\geckodriver.exe");
+		
+		System.setProperty("webdriver.chrome.driver","D:\\JARS\\jar_files\\chromedriver\\chromedriver.exe");
+
+	}
+
+}

@@ -1,0 +1,39 @@
+package Collec;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Lst {
+
+	public static void main(String[] args) {
+	
+		//Syntax
+		
+		//List - Interface         //Class  
+		List<String> Students= new ArrayList<String>();
+		
+		Students.add("Jake");
+		
+		Students.add("max");
+		Students.add("Hayes");
+		
+		Students.add("Peter");
+		Students.add("James");
+		
+		
+		int size= Students.size();
+		
+		System.out.println(" size of students list = "+  size);
+		
+		System.out.println(Students.get(2));
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

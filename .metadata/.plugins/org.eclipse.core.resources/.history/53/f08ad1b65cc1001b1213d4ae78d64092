@@ -1,0 +1,16 @@
+
+public class WebElement  extends ChromeDriver{
+
+	@Override
+	public void click() {
+		System.out.println(" Clicking on element");
+		
+		
+	}
+
+	
+	
+	
+	
+
+}

@@ -1,0 +1,21 @@
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+
+public class Alert_box extends TestBase{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	driver.get("https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_alert");
+	
+	driver.manage().window().maximize();
+	driver.findElement(By.xpath(" //button[contains(text(),'Try it')]")).click();
+	
+	Alert al= driver.switchTo().alert();
+	al.accept();
+		
+		
+
+	}
+
+}

@@ -1,0 +1,18 @@
+
+public class Casting {
+
+	public static void main(String[] args) {
+		
+		int date= 20210530;
+		
+		String year= String.valueOf(date);
+		
+		  System.out.println( year.substring(1));
+		
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,19 @@
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.*;  
+
+public class Sets_Collect {
+	
+	   HashSet<String> s=new HashSet();  
+       s.add("One");    
+       set.add("Two");    
+       set.add("Three");   
+       set.add("Four");  
+       set.add("Five");  
+       Iterator<String> i=s.iterator();  
+       while(i.hasNext())  
+       {  
+       System.out.println(i.next());  
+       }  
+
+}}

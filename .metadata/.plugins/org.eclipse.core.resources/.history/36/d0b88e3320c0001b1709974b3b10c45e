@@ -1,0 +1,22 @@
+
+public class ArrayMarks {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//index of array = length of array-1
+		
+		int[] marks= new int[3];
+		
+		marks[0]=20;
+		marks[1]=30;
+		marks[2]=20;
+		//marks[3]=40;
+		
+		
+		
+		
+
+	}
+
+}

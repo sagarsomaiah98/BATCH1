@@ -1,0 +1,19 @@
+
+public class Grand_Child {
+	
+	
+	
+	public void method5() {
+		
+		System.out.println("method 5");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Grand_Child g= new Grand_Child();
+		g.method5();
+
+	}
+
+}

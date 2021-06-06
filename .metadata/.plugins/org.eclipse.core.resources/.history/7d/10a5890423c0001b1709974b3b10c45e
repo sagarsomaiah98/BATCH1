@@ -1,0 +1,17 @@
+
+public class Types_Casting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i=10;
+		
+		String name= String.valueOf(i);
+		
+		int val=Integer.parseInt(name);
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,38 @@
+
+public class ChromeDriver implements WebDriver {
+	
+	
+	
+	
+	
+
+	
+
+
+	
+
+	@Override
+	public void click() {
+		// TODO Auto-generated method stub
+		
+		System.out.println(" clicking");
+		
+	}
+
+	@Override
+	public void sendKeys(String value) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	public WebElement findElement(String locator) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("find element - "+locator);
+		
+		WebElement webelement = null;
+		return webelement;
+	}
+
+}

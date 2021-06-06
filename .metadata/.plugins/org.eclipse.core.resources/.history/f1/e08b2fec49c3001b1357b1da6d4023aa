@@ -1,0 +1,28 @@
+package Collec;
+
+import java.util.HashSet;
+
+public class SS {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HashSet<String> colors=new HashSet<String>();// Syntax
+		
+		
+		colors.add(" red");
+		colors.add(" yellow");
+		colors.add(" green");
+		colors.add(" red");
+		colors.add(" yellow");
+		
+		int size= colors.size();
+		
+		System.out.println(" size of colors set == "+size );
+		
+		
+		
+
+	}
+
+}

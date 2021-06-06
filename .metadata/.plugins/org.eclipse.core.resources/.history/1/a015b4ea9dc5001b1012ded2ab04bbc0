@@ -1,0 +1,34 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class Parameters extends TestBase {
+	
+	public void login() throws InterruptedException {
+		new TestBase();
+		driver.get("https://opensource-demo.orangehrmlive.com/index.php/dashboard");
+		 WebElement element=driver.findElement(By.xpath("//input[@id='txtUsername']"));
+		 
+		 Thread.sleep(3000);
+		 element.sendKeys("Admin");
+		 
+		 driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys("admin123");
+		 WebElement Login= driver.findElement(By.xpath("//input[@id='btnLogin']"));
+		 System.out.println("Login button text value is  = "+Login.getAttribute("value"));
+		 Login.click();
+		 
+		
+		 	
+	}
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		Parameters p = new Parameters();
+		p.login();
+		
+		
+		
+		
+
+	}
+
+}

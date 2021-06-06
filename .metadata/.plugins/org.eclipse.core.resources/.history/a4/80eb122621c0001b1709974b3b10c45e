@@ -1,0 +1,19 @@
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		
+		
+		 //int[] myNum = {10, 20, 30, 40};
+
+   String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+
+    
+
+  
+cars[0] = "Opel";
+System.out.println(cars[0]);
+
+	}
+
+}

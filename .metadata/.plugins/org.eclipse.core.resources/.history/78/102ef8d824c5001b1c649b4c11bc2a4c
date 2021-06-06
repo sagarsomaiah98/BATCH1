@@ -1,0 +1,40 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class Form_Filling extends TestBase {
+	
+	
+	public static  WebElement method(String locator) {
+		
+		WebElement ele= driver.findElement(By.xpath(locator));
+		
+		return ele;
+	}
+
+	public static void main(String[] args) {
+		
+		new TestBase();
+		String fname="Lee";
+		String lname="Con";
+		String Address="24 central sydney";
+		String city="sydney";
+		String state=" Aus";
+		String pin ="4178";
+		String phone="4123456";
+		String SSN="78856";
+		String Uname="LCon";
+		String pwd="pwd123";
+		String confirm="pwd123";
+		
+		driver.get("https://parabank.parasoft.com/parabank/register.htm");
+		driver.manage().window().maximize();
+		method("//input[@id='customer.firstName']").sendKeys(fname);
+		
+		
+		
+		
+	
+
+	}
+
+}

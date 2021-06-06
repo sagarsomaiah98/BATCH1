@@ -1,0 +1,30 @@
+package com.janbask.sel;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Driver_Methods {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		
+	System.setProperty("webdriver.chrome.driver","D:\\JARS\\jar_files\\chromedriver\\chromedriver.exe");
+		
+		WebDriver driver= new ChromeDriver();
+		Thread.sleep(3000);
+		driver.get("http://www.google.com");
+		
+		driver.manage().window().maximize();
+		
+		
+		
+		/*
+		 * Thread.sleep(3000); driver.get("http://www.bing.com");
+		 */
+		
+		//driver.close();
+		//driver.quit();
+		 
+	}
+
+}

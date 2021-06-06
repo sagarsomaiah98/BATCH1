@@ -1,0 +1,10 @@
+
+public interface WebDriver {
+	
+	public WebElement findElement(String locator);
+	
+	public void click();
+	public void sendKeys(String value);
+	
+
+}

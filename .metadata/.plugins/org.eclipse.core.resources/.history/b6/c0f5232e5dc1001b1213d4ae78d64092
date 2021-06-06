@@ -1,0 +1,20 @@
+
+public class WebElement  extends ChromeDriver{
+	
+	public WebElement() {
+		
+		
+	}
+
+	public  void click() {
+		System.out.println(" Clicking on element");
+		
+		
+	}
+
+	
+	
+	
+	
+
+}
