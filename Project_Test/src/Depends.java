@@ -7,7 +7,7 @@ public class Depends {
 	public void login() {
 		
 		int a=10;
-		int b=10;
+		int b=20;
 		Assert.assertEquals(a, b);
 		
 		System.out.println("login into application");

@@ -35,7 +35,7 @@ public class Driver_Methods {
 		//System.out.println("value after i logged in = "+actual);
 		
 		
-		if(actual.equalsIgnoreCase("Subscribe"))
+		if(actual.equalsIgnoreCase("subscribe"))
 			System.out.println(" test case pass");
 		
 		
