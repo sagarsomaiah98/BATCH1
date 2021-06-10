@@ -25,6 +25,19 @@ public class Assignment_Sample {
 		
 		Thread.sleep(2000);
 		
+		//Locators
+		
+		//xpath
+		
+		//link text- only for links - a tag
+		
+		//id
+		
+		//name
+		
+		//css
+		
+		
 		
 		//xpath locator
 		driver.findElement(By.xpath("//input[@id='fname']")).sendKeys("janbask");

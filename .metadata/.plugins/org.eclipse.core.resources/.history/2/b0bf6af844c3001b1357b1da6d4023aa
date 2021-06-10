@@ -1,9 +1,0 @@
-
-public interface Bank {
-	
-	public void savings_account();
-	public void debit_Card();
-
-	public void loan();
-
-}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-10T08:52:35 IST" name="Suite" finished-at="2021-06-10T08:53:01 IST" duration-ms="26111">
+    <groups>
+    </groups>
+    <test started-at="2021-06-10T08:52:35 IST" name="Test" finished-at="2021-06-10T08:53:01 IST" duration-ms="26111">
+      <class name="com.crm.tests.LoginTest">
+        <test-method signature="logintest()[pri:1, instance:com.crm.tests.LoginTest@68c72235]" started-at="2021-06-10T08:52:35 IST" name="logintest" finished-at="2021-06-10T08:52:41 IST" duration-ms="6099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.tests.LoginTest@68c72235]" started-at="2021-06-10T08:52:41 IST" name="teardown" finished-at="2021-06-10T08:52:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="invalidlogintest()[pri:2, instance:com.crm.tests.LoginTest@68c72235]" started-at="2021-06-10T08:52:41 IST" name="invalidlogintest" finished-at="2021-06-10T08:52:47 IST" duration-ms="5652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlogintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.tests.LoginTest@68c72235]" started-at="2021-06-10T08:52:47 IST" name="teardown" finished-at="2021-06-10T08:52:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crm.tests.LoginTest -->
+      <class name="com.crm.tests.ContactsTest">
+        <test-method signature="contactsTest()[pri:0, instance:com.crm.tests.ContactsTest@20f5239f]" started-at="2021-06-10T08:52:47 IST" name="contactsTest" finished-at="2021-06-10T08:53:01 IST" duration-ms="14311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactsTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.crm.tests.ContactsTest@20f5239f]" started-at="2021-06-10T08:53:01 IST" name="teardown" finished-at="2021-06-10T08:53:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.crm.tests.ContactsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
