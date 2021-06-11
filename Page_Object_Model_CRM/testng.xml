@@ -3,10 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      
-      <class name="com.crm.tests.LoginTest"/>
+      <class name="com.crm.tests.LoginTest"/>    
       <class name="com.crm.tests.ContactsTest"/>
-      
+      <class name="com.crm.tests.FormsTest"/>
+    
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

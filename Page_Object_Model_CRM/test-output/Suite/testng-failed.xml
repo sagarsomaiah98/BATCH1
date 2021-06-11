@@ -5,7 +5,9 @@
     <classes>
       <class name="com.crm.tests.LoginTest">
         <methods>
+          <include name="intialization"/>
           <include name="invalidlogintest"/>
+          <include name="logintest"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- com.crm.tests.LoginTest -->

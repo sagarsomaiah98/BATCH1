@@ -2,21 +2,36 @@ package com.crm.tests;
 
 import static org.testng.Assert.assertEquals;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.crm.pages.LoginPage;
 import com.crm.testbase.TestBase;
 
-public class LoginTest {
+public class LoginTest extends TestBase{
+	
+	
+	
+	@BeforeMethod
+	public void intialize() throws IOException {
+		
+		intialization();
+		
+		
+	}
 	
 	
 	
 	@Test(priority=1)
 	public void logintest() throws InterruptedException {
 		LoginPage	log= new LoginPage();
+		
 		log.loginPage("sagarseleniumstl@gmail.com", "Sagarsomaiah");
 	
 		
@@ -42,7 +57,7 @@ public class LoginTest {
 	@AfterMethod
 	public void teardown() {
 		
-		//driver.close();
+		driver.close();
 		
 		
 	}

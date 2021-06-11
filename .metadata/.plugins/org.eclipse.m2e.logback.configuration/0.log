@@ -24,3 +24,40 @@
 2021-06-09 06:28:00,164 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2021-06-09 19:27:06,678 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2021-06-10 06:26:14,798 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-06-10 09:21:37,723 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-06-10 20:05:58,075 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-06-11 06:26:48,703 [Worker-13: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-06-11 07:38:13,247 [Worker-33: Creating project "Sample_Mvn_Project"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.janbask:Sample_Mvn_Project:0.0.1-SNAPSHOT @ D:\JANBASK\BATCH 1\Sample_Mvn_Project\pom.xml.
+2021-06-11 07:38:13,538 [Worker-33: Creating project "Sample_Mvn_Project"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Sample_Mvn_Project/src/main/java
+2021-06-11 07:38:13,539 [Worker-33: Creating project "Sample_Mvn_Project"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Sample_Mvn_Project/src/main/resources
+2021-06-11 07:38:13,540 [Worker-33: Creating project "Sample_Mvn_Project"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Sample_Mvn_Project/src/test/java
+2021-06-11 07:38:13,540 [Worker-33: Creating project "Sample_Mvn_Project"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Sample_Mvn_Project/src/test/resources
+2021-06-11 07:38:13,992 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-06-11 07:38:13,999 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-11 07:38:14,001 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-06-11 07:38:14,002 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-11 07:40:56,894 [Worker-39: Creating project "Sample_Mvn"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.janbask:Sample_Mvn:0.0.1-SNAPSHOT @ D:\JANBASK\BATCH 1\Sample_Mvn\pom.xml.
+2021-06-11 07:40:57,092 [Worker-39: Creating project "Sample_Mvn"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Sample_Mvn/src/main/java
+2021-06-11 07:40:57,092 [Worker-39: Creating project "Sample_Mvn"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Sample_Mvn/src/main/resources
+2021-06-11 07:40:57,093 [Worker-39: Creating project "Sample_Mvn"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Sample_Mvn/src/test/java
+2021-06-11 07:40:57,093 [Worker-39: Creating project "Sample_Mvn"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Sample_Mvn/src/test/resources
+2021-06-11 07:40:57,660 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-06-11 07:40:57,662 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-11 07:40:57,663 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-06-11 07:40:57,665 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-11 07:46:50,049 [Worker-34: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-06-11 07:46:50,768 [Worker-34: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.janbask:Sample_Mvn:0.0.1-SNAPSHOT @ D:\JANBASK\BATCH 1\Sample_Mvn\pom.xml.
+2021-06-11 07:46:50,960 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Sample_Mvn/src/main/java
+2021-06-11 07:46:50,961 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Sample_Mvn/src/main/resources
+2021-06-11 07:46:50,961 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Sample_Mvn/src/test/java
+2021-06-11 07:46:50,962 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Sample_Mvn/src/test/resources
+2021-06-11 07:46:51,052 [Worker-34: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-06-11 07:46:51,233 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-06-11 07:46:51,235 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-11 07:46:51,238 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-06-11 07:46:51,239 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-11 08:38:37,438 [Worker-42: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.janbask:Sample_Mvn:0.0.1-SNAPSHOT @ D:\JANBASK\BATCH 1\Sample_Mvn\pom.xml.
+2021-06-11 08:38:37,876 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-06-11 08:38:37,879 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-11 08:38:37,881 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-06-11 08:38:37,882 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

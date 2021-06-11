@@ -1,18 +1,27 @@
 package com.crm.tests;
 
+import java.io.IOException;
+
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.crm.pages.FormsPage;
 import com.crm.pages.LoginPage;
 import com.crm.testbase.TestBase;
 
-public class FormsTest {
+public class FormsTest extends TestBase{
 	
 	FormsPage form;
 	LoginPage log;
 	
-	
+	@BeforeMethod
+	public void intialize() throws IOException {
+		
+		intialization();
+		
+		
+	}
 	@Test
 	public void formTest() throws InterruptedException {
 		
@@ -28,7 +37,7 @@ public class FormsTest {
 	@AfterMethod
 	public void teardown() {
 		
-		TestBase.driver.quit();
+		driver.close();
 		
 		
 	}

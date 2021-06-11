@@ -18,6 +18,8 @@ public class LoginPage extends TestBase {
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys(pwd);
 		driver.findElement(By.xpath("//div[@class='ui fluid large blue submit button']")).click();
 		
+		Thread.sleep(3000);
+		
 		
 	}
 	

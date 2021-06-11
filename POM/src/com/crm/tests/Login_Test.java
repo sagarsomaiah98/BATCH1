@@ -18,7 +18,7 @@ public class Login_Test {
 	@Test
 	public void logintest() {
 		
-		l.login("sagarseleniumstl@gmail.com", "Sagarsomaiah");
+		l.login("sagarseleniumstl@gmail.com", "*****");
 		
 		
 		

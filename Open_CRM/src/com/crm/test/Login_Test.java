@@ -21,7 +21,7 @@ public class Login_Test {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//input[@name='email']")).sendKeys("sagarseleniumstl@gmail.com");
-		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Sagarsomaiah");
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("***");
 		driver.findElement(By.xpath("//div[@class='ui fluid large blue submit button']")).click();
 		
 		
