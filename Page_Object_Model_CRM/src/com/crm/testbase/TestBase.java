@@ -23,8 +23,8 @@ public class TestBase {
 	
 	public static void intialization() throws IOException {
 		
-		prop=new Properties();
-	     fis = new FileInputStream("D:\\JANBASK\\BATCH 1\\Page_Object_Model_CRM\\src\\com\\crm\\config\\Config.properties");
+		prop=new Properties();//intialize
+	     fis = new FileInputStream("D:\\JANBASK\\BATCH 1\\Page_Object_Model_CRM\\src\\com\\crm\\config\\Config.properties");//path of configuration
 			 
 			 prop.load(fis);
 		
