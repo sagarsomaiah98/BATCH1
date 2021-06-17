@@ -1,0 +1,22 @@
+Feature: Compose mail
+
+  Scenario: Compose mail [90m# ComposeMail.feature:2[0m
+    
+    Given: login to application
+    When: I click compose
+    Then: mail sent
+
+Feature: outbox mail
+
+  Scenario: outbox mail [90m# Outboox.feature:2[0m
+    
+    Given: login to application
+    When: I click outbox
+    Then: mail saved
+
+Feature: Login
+
+  Scenario: Login Functionality                                                                        [90m# login.feature:2[0m
+    [32mGiven [0m[32mlaunch the browser[0m                                                                           [90m# LoginStepDefintion.enterurl()[0m
+    [32mAnd [0m[32mthere user logs in through Login Window by using Username as "[0m[32m[1mUSER[0m[32m" and Password as "[0m[32m[1mPASSWORD[0m[32m"[0m [90m# LoginStepDefintion.entercredentials(String,String)[0m
+    [32mThen [0m[32mlogin must be successful.[0m                                                                     [90m# LoginStepDefintion.login_successful()[0m

@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Compose mail",
+        "description": "\r\nGiven: login to application\r\nWhen: I click compose\r\nThen: mail sent",
+        "id": "compose-mail;compose-mail",
+        "type": "scenario",
+        "keyword": "Scenario"
+      }
+    ],
+    "name": "Compose mail",
+    "description": "",
+    "id": "compose-mail",
+    "keyword": "Feature",
+    "uri": "ComposeMail.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "outbox mail",
+        "description": "\r\nGiven: login to application\r\nWhen: I click outbox\r\nThen: mail saved",
+        "id": "outbox-mail;outbox-mail",
+        "type": "scenario",
+        "keyword": "Scenario"
+      }
+    ],
+    "name": "outbox mail",
+    "description": "",
+    "id": "outbox-mail",
+    "keyword": "Feature",
+    "uri": "Outboox.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "login;login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 266738900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "launch the browser",
+            "match": {
+              "location": "LoginStepDefintion.enterurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2271400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "there user logs in through Login Window by using Username as \"USER\" and Password as \"PASSWORD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "USER",
+                  "offset": 62
+                },
+                {
+                  "val": "PASSWORD",
+                  "offset": 85
+                }
+              ],
+              "location": "LoginStepDefintion.entercredentials(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "login must be successful.",
+            "match": {
+              "location": "LoginStepDefintion.login_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

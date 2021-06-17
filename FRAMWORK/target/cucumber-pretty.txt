@@ -1,0 +1,6 @@
+Feature: Login to application
+
+  Scenario: Login                                                                   [90m# Login.feature:2[0m
+    [32mGiven [0m[32mLaunch the browser and enter the url[0m                                      [90m# StepDefintion.launch_the_browser_and_enter_the_url()[0m
+    [32mWhen [0m[32mI enter the username "[0m[32m[1mstandard_user[0m[32m" and enter the password "[0m[32m[1msecret_sauce[0m[32m"[0m [90m# StepDefintion.i_enter_the_username_and_enter_the_password(String,String)[0m
+    [32mThen [0m[32mI click submit[0m                                                             [90m# StepDefintion.i_click_submit()[0m

@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 3, Skipped: 2, Time elapsed: 0.87 s <<< FAILURE! - in Runner.TestRunner
+Given Launch the browser and enter the url(Scenario: Login)  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "StepDefinition.Login_StepDefintion.driver" is null
+
+Scenario: Login  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "StepDefinition.Login_StepDefintion.driver" is null
+
+Scenario: Login  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "StepDefinition.HookS.driver" is null
+

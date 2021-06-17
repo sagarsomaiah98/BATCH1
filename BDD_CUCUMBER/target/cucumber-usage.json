@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^launch the browser$",
+    "steps": [
+      {
+        "name": "launch the browser",
+        "aggregatedDurations": {
+          "average": 0.2667389,
+          "median": 0.2667389
+        },
+        "durations": [
+          {
+            "duration": 0.2667389,
+            "location": "login.feature:3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^login must be successful\\.$",
+    "steps": [
+      {
+        "name": "login must be successful.",
+        "aggregatedDurations": {
+          "average": 0.0000761,
+          "median": 0.0000761
+        },
+        "durations": [
+          {
+            "duration": 0.0000761,
+            "location": "login.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^there user logs in through Login Window by using Username as \"([^\"]*)\" and Password as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "there user logs in through Login Window by using Username as \"USER\" and Password as \"PASSWORD\"",
+        "aggregatedDurations": {
+          "average": 0.0022714,
+          "median": 0.0022714
+        },
+        "durations": [
+          {
+            "duration": 0.0022714,
+            "location": "login.feature:4"
+          }
+        ]
+      }
+    ]
+  }
+]

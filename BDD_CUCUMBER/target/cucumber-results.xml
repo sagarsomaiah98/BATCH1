@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="3" time="0.269086">
+    <testcase classname="Compose mail" name="Compose mail" time="0">
+        <skipped message="The scenario has no steps"/>
+    </testcase>
+    <testcase classname="outbox mail" name="outbox mail" time="0">
+        <skipped message="The scenario has no steps"/>
+    </testcase>
+    <testcase classname="Login" name="Login Functionality" time="0.269086">
+        <system-out><![CDATA[Given launch the browser....................................................passed
+And there user logs in through Login Window by using Username as "USER" and Password as "PASSWORD".passed
+Then login must be successful...............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

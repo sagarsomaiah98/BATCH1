@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 332600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookS.init()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Login",
+        "description": "",
+        "id": "login-to-application;login",
+        "after": [
+          {
+            "result": {
+              "duration": 22900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookS.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 321579000,
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because \"StepDefinition.Login_StepDefintion.driver\" is null\r\n\tat StepDefinition.Login_StepDefintion.launch_the_browser_and_enter_the_url(Login_StepDefintion.java:22)\r\n\tat ✽.Given Launch the browser and enter the url(Login.feature:3)\r\n",
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "Launch the browser and enter the url",
+            "match": {
+              "location": "Login_StepDefintion.launch_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "I enter the username \"standard_user\" and enter the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 22
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 61
+                }
+              ],
+              "location": "Login_StepDefintion.i_enter_the_username_and_enter_the_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I click submit",
+            "match": {
+              "location": "Login_StepDefintion.i_click_submit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to application",
+    "description": "",
+    "id": "login-to-application",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

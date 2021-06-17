@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^I enter the username \"([^\"]*)\" and enter the password \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter the username \"standard_user\" and enter the password \"secret_sauce\"",
+        "aggregatedDurations": {
+          "average": 0.0115299,
+          "median": 0.0115299
+        },
+        "durations": [
+          {
+            "duration": 0.0115299,
+            "location": "Login.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click submit$",
+    "steps": [
+      {
+        "name": "I click submit",
+        "aggregatedDurations": {
+          "average": 0.0000404,
+          "median": 0.0000404
+        },
+        "durations": [
+          {
+            "duration": 0.0000404,
+            "location": "Login.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Launch the browser and enter the url$",
+    "steps": [
+      {
+        "name": "Launch the browser and enter the url",
+        "aggregatedDurations": {
+          "average": 5.8268559,
+          "median": 5.8268559
+        },
+        "durations": [
+          {
+            "duration": 5.8268559,
+            "location": "Login.feature:3"
+          }
+        ]
+      }
+    ]
+  }
+]

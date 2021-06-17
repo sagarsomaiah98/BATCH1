@@ -1,0 +1,10 @@
+Feature: Login to application
+
+  Scenario: Login                                                                   [90m# Login.feature:2[0m
+    [31mGiven [0m[31mLaunch the browser and enter the url[0m                                      [90m# Login_StepDefintion.launch_the_browser_and_enter_the_url()[0m
+      [31mjava.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "StepDefinition.Login_StepDefintion.driver" is null
+      	at StepDefinition.Login_StepDefintion.launch_the_browser_and_enter_the_url(Login_StepDefintion.java:22)
+      	at ✽.Given Launch the browser and enter the url(Login.feature:3)
+      [0m
+    [36mWhen [0m[36mI enter the username "[0m[36m[1mstandard_user[0m[36m" and enter the password "[0m[36m[1msecret_sauce[0m[36m"[0m [90m# Login_StepDefintion.i_enter_the_username_and_enter_the_password(String,String)[0m
+    [36mThen [0m[36mI click submit[0m                                                             [90m# Login_StepDefintion.i_click_submit()[0m

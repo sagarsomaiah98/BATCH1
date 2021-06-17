@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.321935">
+    <testcase classname="Login to application" name="Login" time="0.321935">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;StepDefinition.Login_StepDefintion.driver&quot; is null&#13;&#10;&#9;at StepDefinition.Login_StepDefintion.launch_the_browser_and_enter_the_url(Login_StepDefintion.java:22)&#13;&#10;&#9;at ✽.Given Launch the browser and enter the url(Login.feature:3)&#13;&#10;"><![CDATA[Given Launch the browser and enter the url..................................failed
+When I enter the username "standard_user" and enter the password "secret_sauce".skipped
+Then I click submit.........................................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "StepDefinition.Login_StepDefintion.driver" is null
+	at StepDefinition.Login_StepDefintion.launch_the_browser_and_enter_the_url(Login_StepDefintion.java:22)
+	at ✽.Given Launch the browser and enter the url(Login.feature:3)
+]]></failure>
+    </testcase>
+</testsuite>
