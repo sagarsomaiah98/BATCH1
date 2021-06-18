@@ -34,18 +34,25 @@ public class TestBase {
 		  String bname= prop.getProperty("browser");
 		  System.out.println(bname);
 		  
-		  WebDriverManager.chromedriver().setup(); driver= new
-				  ChromeDriver(); 
+		
 		  
 		  
 		  switch(bname){
 		  
 		  
-		  case "chrome": WebDriverManager.chromedriver().setup(); driver= new
-		  ChromeDriver(); break; case "firefox":
-		  WebDriverManager.firefoxdriver().setup(); driver = new FirefoxDriver();
-		  break; case "edge": WebDriverManager.edgedriver().setup(); driver=new
-		  EdgeDriver(); break; default: System.out.println("invalid browser");
+		  case "chrome": WebDriverManager.chromedriver().setup(); 
+		  driver= new
+		  ChromeDriver(); 
+		  break; 
+		  case "firefox":
+		  WebDriverManager.firefoxdriver().setup(); 
+		  driver = new FirefoxDriver();
+		  break; case "edge":
+			  WebDriverManager.edgedriver().setup(); driver=new
+		  EdgeDriver(); 
+			  break; 
+		  default:
+			  System.out.println("invalid browser");
 		  
 		  
 		  }

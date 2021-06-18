@@ -33,7 +33,7 @@ formatter.match({
   "location": "StepDefintion.launch_the_browser_and_enter_the_url()"
 });
 formatter.result({
-  "duration": 5826855900,
+  "duration": 6590648800,
   "status": "passed"
 });
 formatter.match({
@@ -50,14 +50,14 @@ formatter.match({
   "location": "StepDefintion.i_enter_the_username_and_enter_the_password(String,String)"
 });
 formatter.result({
-  "duration": 11529900,
+  "duration": 486474200,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefintion.i_click_submit()"
 });
 formatter.result({
-  "duration": 40400,
+  "duration": 314685600,
   "status": "passed"
 });
 });

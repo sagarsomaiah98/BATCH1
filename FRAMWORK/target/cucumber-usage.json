@@ -5,12 +5,12 @@
       {
         "name": "I enter the username \"standard_user\" and enter the password \"secret_sauce\"",
         "aggregatedDurations": {
-          "average": 0.0115299,
-          "median": 0.0115299
+          "average": 0.4864742,
+          "median": 0.4864742
         },
         "durations": [
           {
-            "duration": 0.0115299,
+            "duration": 0.4864742,
             "location": "Login.feature:4"
           }
         ]
@@ -23,12 +23,12 @@
       {
         "name": "I click submit",
         "aggregatedDurations": {
-          "average": 0.0000404,
-          "median": 0.0000404
+          "average": 0.3146856,
+          "median": 0.3146856
         },
         "durations": [
           {
-            "duration": 0.0000404,
+            "duration": 0.3146856,
             "location": "Login.feature:5"
           }
         ]
@@ -41,12 +41,12 @@
       {
         "name": "Launch the browser and enter the url",
         "aggregatedDurations": {
-          "average": 5.8268559,
-          "median": 5.8268559
+          "average": 6.5906488,
+          "median": 6.5906488
         },
         "durations": [
           {
-            "duration": 5.8268559,
+            "duration": 6.5906488,
             "location": "Login.feature:3"
           }
         ]

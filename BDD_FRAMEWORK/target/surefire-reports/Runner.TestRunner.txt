@@ -1,13 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: Runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 3, Skipped: 2, Time elapsed: 0.87 s <<< FAILURE! - in Runner.TestRunner
-Given Launch the browser and enter the url(Scenario: Login)  Time elapsed: 0.008 s  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "StepDefinition.Login_StepDefintion.driver" is null
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 5.684 s <<< FAILURE! - in Runner.TestRunner
+Given Launch the browser and enter the url(Scenario: Login)  Time elapsed: 0.017 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @2c8d66b2
 
-Scenario: Login  Time elapsed: 0.01 s  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "StepDefinition.Login_StepDefintion.driver" is null
-
-Scenario: Login  Time elapsed: 0.015 s  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "StepDefinition.HookS.driver" is null
+Scenario: Login  Time elapsed: 0.019 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @2c8d66b2
 

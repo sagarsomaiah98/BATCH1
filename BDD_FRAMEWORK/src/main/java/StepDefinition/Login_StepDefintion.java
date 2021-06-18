@@ -16,7 +16,7 @@ public class Login_StepDefintion extends TestBase{
 	@Given("^Launch the browser and enter the url$")
 	public void launch_the_browser_and_enter_the_url() throws Throwable {
 
-		 intialize();
+		// intialize();
 	   
 	 String url=  prop.getProperty("url");
 		driver.get(url);
@@ -39,7 +39,7 @@ public class Login_StepDefintion extends TestBase{
 		
 		try {
 			loginpage.click_submit();
-			String value=TestUtil.gettext("//span[contains(text(),'Products')]");
+			String value=TestUtil.gettext("//span[contains(text(),'Product')]");
 			
 			assertEquals(value, "PRODUCTS");
 			
