@@ -1,1 +1,218 @@
-[]
+[
+  {
+    "source": "^I navigate to home page$",
+    "steps": [
+      {
+        "name": "I navigate to home page",
+        "aggregatedDurations": {
+          "average": 0.1342566,
+          "median": 0.1342566
+        },
+        "durations": [
+          {
+            "duration": 0.1342566,
+            "location": "./Features/PlaceOrder.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter the username \"([^\"]*)\" and enter the password \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter the username \"standard_user\" and enter the password \"secret_sauce\"",
+        "aggregatedDurations": {
+          "average": 0.4673133,
+          "median": 0.4673133
+        },
+        "durations": [
+          {
+            "duration": 0.4673133,
+            "location": "./Features/PlaceOrder.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click continue$",
+    "steps": [
+      {
+        "name": "I click continue",
+        "aggregatedDurations": {
+          "average": 3.2194429,
+          "median": 3.2194429
+        },
+        "durations": [
+          {
+            "duration": 3.2194429,
+            "location": "./Features/PlaceOrder.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I enter the details \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "I enter the details \"Dean\" \"Win\" \"2134\"",
+        "aggregatedDurations": {
+          "average": 9.4449903,
+          "median": 9.4449903
+        },
+        "durations": [
+          {
+            "duration": 9.4449903,
+            "location": "./Features/PlaceOrder.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click submit$",
+    "steps": [
+      {
+        "name": "I click submit",
+        "aggregatedDurations": {
+          "average": 1.2658031,
+          "median": 1.2658031
+        },
+        "durations": [
+          {
+            "duration": 1.2658031,
+            "location": "./Features/PlaceOrder.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Launch the browser and enter the url$",
+    "steps": [
+      {
+        "name": "Launch the browser and enter the url",
+        "aggregatedDurations": {
+          "average": 0.8742823,
+          "median": 0.8742823
+        },
+        "durations": [
+          {
+            "duration": 0.8742823,
+            "location": "./Features/PlaceOrder.feature:3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click cart$",
+    "steps": [
+      {
+        "name": "I click cart",
+        "aggregatedDurations": {
+          "average": 3.132812,
+          "median": 3.132812
+        },
+        "durations": [
+          {
+            "duration": 3.132812,
+            "location": "./Features/PlaceOrder.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click checkout$",
+    "steps": [
+      {
+        "name": "I click checkout",
+        "aggregatedDurations": {
+          "average": 3.1217424,
+          "median": 3.1217424
+        },
+        "durations": [
+          {
+            "duration": 3.1217424,
+            "location": "./Features/PlaceOrder.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I add the item to the cart$",
+    "steps": [
+      {
+        "name": "I add the item to the cart",
+        "aggregatedDurations": {
+          "average": 3.072865,
+          "median": 3.072865
+        },
+        "durations": [
+          {
+            "duration": 3.072865,
+            "location": "./Features/PlaceOrder.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I verify total value$",
+    "steps": [
+      {
+        "name": "I verify total value",
+        "aggregatedDurations": {
+          "average": 6.0636529,
+          "median": 6.0636529
+        },
+        "durations": [
+          {
+            "duration": 6.0636529,
+            "location": "./Features/PlaceOrder.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click Finish$",
+    "steps": [
+      {
+        "name": "I click Finish",
+        "aggregatedDurations": {
+          "average": 3.1415774,
+          "median": 3.1415774
+        },
+        "durations": [
+          {
+            "duration": 3.1415774,
+            "location": "./Features/PlaceOrder.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I verify the order$",
+    "steps": [
+      {
+        "name": "I verify the order",
+        "aggregatedDurations": {
+          "average": 0.048926,
+          "median": 0.048926
+        },
+        "durations": [
+          {
+            "duration": 0.048926,
+            "location": "./Features/PlaceOrder.feature:13"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,20 +1,20 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("./Features/PlaceOrder.feature");
 formatter.feature({
   "line": 1,
-  "name": "Login to application",
+  "name": "Add to cart and Place Order",
   "description": "",
-  "id": "login-to-application",
+  "id": "add-to-cart-and-place-order",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 3753968800,
+  "duration": 2824911400,
   "status": "passed"
 });
 formatter.scenario({
   "line": 2,
-  "name": "Login",
+  "name": "Place order",
   "description": "",
-  "id": "login-to-application;login",
+  "id": "add-to-cart-and-place-order;place-order",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -33,13 +33,57 @@ formatter.step({
   "name": "I click submit",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 6,
+  "name": "I add the item to the cart",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "I click cart",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "I click checkout",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "I enter the details \"Dean\" \"Win\" \"2134\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "I click continue",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "I verify total value",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "I click Finish",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "I verify the order",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "I navigate to home page",
+  "keyword": "Then "
+});
 formatter.match({
   "location": "Login_StepDefintion.launch_the_browser_and_enter_the_url()"
 });
 formatter.result({
-  "duration": 207488700,
-  "error_message": "java.lang.ExceptionInInitializerError\r\n\tat cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)\r\n\tat cucumber.deps.com.thoughtworks.xstream.XStream.\u003cinit\u003e(XStream.java:574)\r\n\tat cucumber.deps.com.thoughtworks.xstream.XStream.\u003cinit\u003e(XStream.java:530)\r\n\tat cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.\u003cinit\u003e(LocalizedXStreams.java:50)\r\n\tat cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)\r\n\tat cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n\tat ✽.Given Launch the browser and enter the url(Login.feature:3)\r\nCaused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not \"opens java.util\" to unnamed module @2c8d66b2\r\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)\r\n\tat java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)\r\n\tat java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:177)\r\n\tat java.base/java.lang.reflect.Field.setAccessible(Field.java:171)\r\n\tat cucumber.deps.com.thoughtworks.xstream.core.util.Fields.locate(Fields.java:39)\r\n\tat cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter.\u003cclinit\u003e(TreeMapConverter.java:50)\r\n\tat cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:820)\r\n\tat cucumber.deps.com.thoughtworks.xstream.XStream.\u003cinit\u003e(XStream.java:574)\r\n\tat cucumber.deps.com.thoughtworks.xstream.XStream.\u003cinit\u003e(XStream.java:530)\r\n\tat cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.\u003cinit\u003e(LocalizedXStreams.java:50)\r\n\tat cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)\r\n\tat cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n",
-  "status": "failed"
+  "duration": 874282300,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -55,16 +99,95 @@ formatter.match({
   "location": "Login_StepDefintion.i_enter_the_username_and_enter_the_password(String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 467313300,
+  "status": "passed"
 });
 formatter.match({
   "location": "Login_StepDefintion.i_click_submit()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1265803100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Order_StepDefinition.i_add_the_item_to_the_cart()"
+});
+formatter.result({
+  "duration": 3072865000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Order_StepDefinition.i_click_cart()"
+});
+formatter.result({
+  "duration": 3132812000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Order_StepDefinition.i_click_checkout()"
+});
+formatter.result({
+  "duration": 3121742400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Dean",
+      "offset": 21
+    },
+    {
+      "val": "Win",
+      "offset": 28
+    },
+    {
+      "val": "2134",
+      "offset": 34
+    }
+  ],
+  "location": "Order_StepDefinition.i_enter_the_details(String,String,String)"
+});
+formatter.result({
+  "duration": 9444990300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Order_StepDefinition.i_click_continue()"
+});
+formatter.result({
+  "duration": 3219442900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Order_StepDefinition.i_verify_total_value()"
+});
+formatter.result({
+  "duration": 6063652900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Order_StepDefinition.i_click_Finish()"
+});
+formatter.result({
+  "duration": 3141577400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Order_StepDefinition.i_verify_the_order()"
+});
+formatter.result({
+  "duration": 48926000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Order_StepDefinition.i_navigate_to_home_page()"
+});
+formatter.result({
+  "duration": 134256600,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 98600,
+  "duration": 173400,
   "status": "passed"
 });
 });

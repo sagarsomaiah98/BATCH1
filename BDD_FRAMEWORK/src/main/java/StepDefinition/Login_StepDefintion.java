@@ -39,7 +39,7 @@ public class Login_StepDefintion extends TestBase{
 		
 		try {
 			loginpage.click_submit();
-			String value=TestUtil.gettext("//span[contains(text(),'Product')]");
+			String value=TestUtil.gettext("//span[contains(text(),'Products')]");
 			
 			assertEquals(value, "PRODUCTS");
 			

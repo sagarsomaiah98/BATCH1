@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(plugin = { "html:target/cucumber-html-report",
         "json:target/cucumber.json", "pretty:target/cucumber-pretty.txt",
         "usage:target/cucumber-usage.json", "junit:target/cucumber-results.xml" },
-features={".//Features" },
+features={".//Features//PlaceOrder.feature" },
 glue={"StepDefinition"})
 public class TestRunner {
 	

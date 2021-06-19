@@ -79,23 +79,59 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "I checkout",
+  "name": "I click cart",
   "keyword": "And "
 });
 formatter.step({
   "line": 8,
-  "name": "I enter the details",
+  "name": "I click checkout",
   "keyword": "And "
 });
 formatter.step({
   "line": 9,
-  "name": "I place the order",
+  "name": "I enter the details \"Dean\" \"Win\" \"2134\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 10,
+  "name": "I click continue",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "I verify total value",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "I click Finish",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "I verify the order",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
   "name": "I navigate to home page",
   "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
 });
 formatter.match({});
 formatter.result({
