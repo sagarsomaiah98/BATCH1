@@ -34,23 +34,23 @@ public class Sauce_demo {
 		
 		//click add to cart 
 		driver.findElement(By.xpath("//button[@id='add-to-cart-sauce-labs-backpack']")).click();
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 		
 		driver.findElement(By.xpath("//a[@class='shopping_cart_link']")).click();
-		Thread.sleep(3000);
+		//Thread.sleep(3000);
 		
 		
 		  driver.findElement(By.xpath(" //button[@id='checkout']")).click(); 
-		  Thread.sleep(3000);
+		 // Thread.sleep(3000);
 		  
 		  driver.findElement(By.xpath("//input[@id='first-name']")).sendKeys("dean"); 
-		  Thread.sleep(3000);
+		  //Thread.sleep(3000);
 		  
 		  driver.findElement(By.xpath("//input[@id='last-name']")).sendKeys("warren");
-		  Thread.sleep(3000);
+		//  Thread.sleep(3000);
 		  
 		  driver.findElement(By.xpath("//input[@id='postal-code']")).sendKeys("2145");
-		  Thread.sleep(3000);
+		//  Thread.sleep(3000);
 		  
 		  driver.findElement(By.xpath(" //input[@id='continue']")).click(); 
 		  Thread.sleep(3000);
@@ -59,11 +59,11 @@ public class Sauce_demo {
 		  Thread.sleep(3000);
 		  
 		  System.out.println("total cart value = "+total);
-		  Thread.sleep(3000);
+		//  Thread.sleep(3000);
 		  
 		  driver.findElement(By.xpath("//button[@id='finish']")).click();
 		  
-		  Thread.sleep(3000);
+		//  Thread.sleep(3000);
 		  
 		 String confirmation_order= driver.findElement(By.xpath("//h2[contains(text(),'THANK YOU FOR YOUR ORDER')]")).getText();
 		 

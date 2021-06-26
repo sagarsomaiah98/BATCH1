@@ -8,15 +8,14 @@ import com.crm.pages.Form_Page;
 import com.crm.pages.Login_Page;
 import com.crm.testbase.TestBase;
 
-public class Form_Test {
+public class Form_Test extends TestBase {
 	
 	Login_Page l;
 	Form_Page frm;
 	@BeforeTest
 	public void intialization() {
 		
-		l= new Login_Page();
-		l.login("sagarseleniumstl@gmail.com", "Sagarsomaiah");
+	
 	}
 	
 	@Test

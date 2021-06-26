@@ -1,0 +1,5 @@
+Pages\Form_Page.class
+Pages\Login_Page.class
+Pages\Logout_Page.class
+Pages\Contacts_Page.class
+Util\TestBase.class

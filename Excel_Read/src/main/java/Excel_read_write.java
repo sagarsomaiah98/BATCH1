@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 public class Excel_read_write {
 	
-	@Test(priority=1)
+	//@Test(priority=1)
 	
 	public void write() throws IOException {
 		Workbook wb = new HSSFWorkbook();
@@ -65,23 +65,33 @@ public class Excel_read_write {
 		
 	}
 	
-	@Test(priority=2)
+	@Test(priority=1)
 	public void read() throws IOException {
 		FileInputStream fis = new FileInputStream("D:\\JANBASK\\BATCH 1\\Excel_Read\\src\\main\\resources\\TestData\\workbook.xls");
 		
-Workbook wb = new HSSFWorkbook(fis);
+        Workbook wb = new HSSFWorkbook(fis);
 		
 		
 		
 		Sheet sheet=wb.getSheet("new sheet");
 		int rowcount= sheet.getLastRowNum();
-	System.out.println(rowcount);
+	//System.out.println(rowcount);
+	//Row row;
+	
+//	row=sheet.getRow(1); //row number
+	
+	//Cell cell=row.getCell(2); //column number
+	//System.out.println(cell);
+	
 		Row row;
 		Cell cell;
 		
 		
 		for( int i=0;i<rowcount;i++) {
 			for( int j=0;j<rowcount;j++) {
+				
+				
+			
 			row=sheet.getRow(j);
 			cell= row.getCell(i);
 			if(cell==null)
@@ -93,7 +103,7 @@ Workbook wb = new HSSFWorkbook(fis);
 		}
 		
 		
-		
+	}
 		
 		
 		
@@ -101,4 +111,4 @@ Workbook wb = new HSSFWorkbook(fis);
 	}
 	
 
-}
+
